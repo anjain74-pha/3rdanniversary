@@ -895,11 +895,9 @@ document.querySelectorAll('.pc[data-i]').forEach(el => {
 });
 
 // Core memory + anniversary pair
-if(PHOTOS["bombay_adda"]){
-  document.getElementById('memImg').src = PHOTOS["bombay_adda"];
-  document.getElementById('annivImg1').src = PHOTOS["bombay_adda"];
-}
-if(PHOTOS["april_2023"]) document.getElementById('annivImg2').src = PHOTOS["april_2023"];
+document.getElementById('memImg').src = PHOTOS["IMG_4703.jpeg"] || "";
+document.getElementById('annivImg1').src = PHOTOS["IMG_4703.jpeg"] || "";
+document.getElementById('annivImg2').src = PHOTOS["IMG_4457.jpeg"] || "";
 
 // ── LIGHTBOX ──
 let lbIdx = 0;
