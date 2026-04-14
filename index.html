@@ -875,7 +875,7 @@ const PLAN = [
 
 
 // Cover image
-if(PHOTOS["cover"]) document.getElementById('cover-img').src = PHOTOS["cover"];
+document.getElementById('cover-img').src = PHOTOS["IMG_4457.jpeg"] || "";
 
 // Assign gallery images + captions
 document.querySelectorAll('.pc[data-i]').forEach(el => {
